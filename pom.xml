@@ -350,6 +350,11 @@
 			<artifactId>spring-security-crypto</artifactId>
 			<version>5.6.4</version>
 		</dependency>
+		<dependency>
+                <groupId>com.thoughtworks.xstream</groupId>
+                <artifactId>xstream</artifactId>
+                <version>1.4.19</version>
+            </dependency>
 
     </dependencies>
 
