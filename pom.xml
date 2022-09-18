@@ -295,6 +295,12 @@
 			<groupId>com.amazonaws</groupId>
 			<artifactId>jmespath-java</artifactId>
 			<version>1.12.187</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.fasterxml.jackson.core</groupId>
+					<artifactId>jackson-databind</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<!-- AWS SDK end -->
 		<dependency>
